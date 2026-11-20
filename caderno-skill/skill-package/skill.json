@@ -1,0 +1,38 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "name": "Meu Caderno",
+          "summary": "Salve compras, ideias, lembretes e anotações por voz e ouça quando quiser.",
+          "description": "Diga 'adicionar leite na lista de compras', 'salvar ideia ...', 'criar lembrete ...' ou 'anotar que ...' e depois pergunte 'o que tem na lista de compras?'.",
+          "examplePhrases": [
+            "Alexa, abrir meu caderno",
+            "Alexa, peça ao meu caderno para adicionar leite na lista de compras",
+            "Alexa, pergunte ao meu caderno o que tem na lista de compras"
+          ],
+          "keywords": [
+            "anotações",
+            "compras",
+            "lembretes",
+            "ideias"
+          ]
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Uso pessoal.",
+      "category": "ORGANIZERS_AND_ASSISTANTS",
+      "distributionCountries": [
+        "BR"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:REGIAO:CONTA:function:caderno-skill"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}

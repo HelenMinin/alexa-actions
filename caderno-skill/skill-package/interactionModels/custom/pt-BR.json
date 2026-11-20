@@ -1,0 +1,181 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "meu caderno",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AddCompraIntent",
+          "slots": [
+            {
+              "name": "texto",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "adicionar {texto} na lista de compras",
+            "adicionar {texto} à lista de compras",
+            "adicione {texto} na lista de compras",
+            "adicione {texto} à lista de compras",
+            "coloque {texto} na lista de compras",
+            "põe {texto} na lista de compras",
+            "incluir {texto} na lista de compras",
+            "preciso comprar {texto}",
+            "comprar {texto}"
+          ]
+        },
+        {
+          "name": "AddIdeiaIntent",
+          "slots": [
+            {
+              "name": "texto",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "salvar ideia {texto}",
+            "salvar a ideia {texto}",
+            "anotar ideia {texto}",
+            "guardar ideia {texto}",
+            "tive uma ideia {texto}",
+            "nova ideia {texto}"
+          ]
+        },
+        {
+          "name": "AddLembreteIntent",
+          "slots": [
+            {
+              "name": "texto",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "criar lembrete {texto}",
+            "salvar lembrete {texto}",
+            "anotar lembrete {texto}",
+            "novo lembrete {texto}",
+            "me lembre de {texto}",
+            "lembrar de {texto}"
+          ]
+        },
+        {
+          "name": "AddAnotacaoIntent",
+          "slots": [
+            {
+              "name": "texto",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "anotar que {texto}",
+            "salvar anotação {texto}",
+            "fazer uma anotação {texto}",
+            "nova anotação {texto}",
+            "guardar nota {texto}",
+            "salvar nota {texto}"
+          ]
+        },
+        {
+          "name": "LerIntent",
+          "slots": [
+            {
+              "name": "categoria",
+              "type": "CATEGORIA"
+            }
+          ],
+          "samples": [
+            "ler {categoria}",
+            "leia {categoria}",
+            "ler minhas {categoria}",
+            "leia minhas {categoria}",
+            "ler meus {categoria}",
+            "leia meus {categoria}",
+            "o que tem na {categoria}",
+            "o que tem nas {categoria}",
+            "o que tem nos {categoria}",
+            "o que eu tenho na {categoria}",
+            "o que eu tenho nas {categoria}",
+            "quais são minhas {categoria}",
+            "quais são meus {categoria}",
+            "me fale {categoria}",
+            "me diga {categoria}",
+            "ler tudo",
+            "leia tudo",
+            "o que tem no caderno",
+            "o que eu anotei"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "name": "CATEGORIA",
+          "values": [
+            {
+              "id": "compras",
+              "name": {
+                "value": "lista de compras",
+                "synonyms": [
+                  "compras",
+                  "lista do mercado",
+                  "mercado",
+                  "itens de compra",
+                  "lista de mercado"
+                ]
+              }
+            },
+            {
+              "id": "ideias",
+              "name": {
+                "value": "ideias",
+                "synonyms": [
+                  "ideia",
+                  "minhas ideias",
+                  "lista de ideias"
+                ]
+              }
+            },
+            {
+              "id": "lembretes",
+              "name": {
+                "value": "lembretes",
+                "synonyms": [
+                  "lembrete",
+                  "meus lembretes",
+                  "lista de lembretes"
+                ]
+              }
+            },
+            {
+              "id": "anotacoes",
+              "name": {
+                "value": "anotações",
+                "synonyms": [
+                  "anotação",
+                  "notas",
+                  "nota",
+                  "minhas anotações",
+                  "minhas notas"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
