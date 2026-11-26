@@ -119,6 +119,131 @@
             "o que tem no caderno",
             "o que eu anotei"
           ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "RemoverCompraIntent",
+          "slots": [
+            {
+              "name": "texto",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "tirar {texto} da lista de compras",
+            "tire {texto} da lista de compras",
+            "remover {texto} da lista de compras",
+            "remova {texto} da lista de compras",
+            "apagar {texto} da lista de compras",
+            "apague {texto} da lista de compras",
+            "riscar {texto} da lista de compras",
+            "já comprei {texto}",
+            "comprei {texto}"
+          ]
+        },
+        {
+          "name": "RemoverIdeiaIntent",
+          "slots": [
+            {
+              "name": "texto",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "apagar ideia {texto}",
+            "apague a ideia {texto}",
+            "remover ideia {texto}",
+            "remova a ideia {texto}",
+            "tirar ideia {texto}"
+          ]
+        },
+        {
+          "name": "RemoverLembreteIntent",
+          "slots": [
+            {
+              "name": "texto",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "apagar lembrete {texto}",
+            "apague o lembrete {texto}",
+            "remover lembrete {texto}",
+            "remova o lembrete {texto}",
+            "tirar lembrete {texto}",
+            "já fiz {texto}"
+          ]
+        },
+        {
+          "name": "RemoverAnotacaoIntent",
+          "slots": [
+            {
+              "name": "texto",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "apagar anotação {texto}",
+            "apague a anotação {texto}",
+            "remover anotação {texto}",
+            "remova a anotação {texto}",
+            "apagar nota {texto}",
+            "remover nota {texto}"
+          ]
+        },
+        {
+          "name": "LimparIntent",
+          "slots": [
+            {
+              "name": "categoria",
+              "type": "CATEGORIA"
+            }
+          ],
+          "samples": [
+            "limpar {categoria}",
+            "limpar a {categoria}",
+            "limpar as {categoria}",
+            "limpar os {categoria}",
+            "limpe {categoria}",
+            "limpe a {categoria}",
+            "esvaziar {categoria}",
+            "esvaziar a {categoria}",
+            "esvazie a {categoria}",
+            "limpar tudo",
+            "limpe tudo",
+            "esvaziar o caderno",
+            "limpar o caderno"
+          ]
+        },
+        {
+          "name": "ContarIntent",
+          "slots": [
+            {
+              "name": "categoria",
+              "type": "CATEGORIA"
+            }
+          ],
+          "samples": [
+            "quantos itens tem na {categoria}",
+            "quantos itens tem nas {categoria}",
+            "quantos itens tem nos {categoria}",
+            "quantos itens eu tenho na {categoria}",
+            "quantas {categoria} eu tenho",
+            "quantos {categoria} eu tenho",
+            "quantas {categoria} tem",
+            "quantos {categoria} tem",
+            "quantas {categoria}",
+            "quantos {categoria}",
+            "quantas coisas tem no caderno",
+            "quantos itens tem no caderno"
+          ]
         }
       ],
       "types": [

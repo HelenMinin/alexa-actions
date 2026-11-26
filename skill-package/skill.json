@@ -5,11 +5,12 @@
         "pt-BR": {
           "name": "Meu Caderno",
           "summary": "Salve compras, ideias, lembretes e anotações por voz e ouça quando quiser.",
-          "description": "Diga 'adicionar leite na lista de compras', 'salvar ideia ...', 'criar lembrete ...' ou 'anotar que ...' e depois pergunte 'o que tem na lista de compras?'.",
+          "description": "Diga 'adicionar leite na lista de compras', 'salvar ideia ...', 'criar lembrete ...' ou 'anotar que ...' e depois pergunte 'o que tem na lista de compras?'. Também dá para contar ('quantos itens tem na lista de compras'), tirar itens ('já comprei o pão') e limpar listas.",
           "examplePhrases": [
             "Alexa, abrir meu caderno",
             "Alexa, peça ao meu caderno para adicionar leite na lista de compras",
-            "Alexa, pergunte ao meu caderno o que tem na lista de compras"
+            "Alexa, pergunte ao meu caderno o que tem na lista de compras",
+            "Alexa, peça ao meu caderno para tirar leite da lista de compras"
           ],
           "keywords": [
             "anotações",
